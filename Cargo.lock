@@ -272,6 +272,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "k8s-deviceplugin"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d21d9a346a7ecd570f424676b1ae4c1201963b3417f615e8d684ca0949fcd685"
+dependencies = [
+ "prost",
+ "tonic",
+ "tonic-build",
+]
+
+[[package]]
 name = "lazy_static"
 version = "1.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -418,7 +429,7 @@ checksum = "8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184"
 name = "plugin"
 version = "0.1.0"
 dependencies = [
- "k8s-deviceplugin",
+ "k8s-deviceplugin 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "prost",
  "tokio",
  "tonic",
