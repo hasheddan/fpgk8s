@@ -11,7 +11,7 @@ readme = "README.md"
 description = """
 API bindings for Kubernetes device plugins.
 """
-categories = ["kubernetes", "bindings"]
+categories = ["api-bindings"]
 keywords = ["kubernetes", "k8s", "device", "plugin"]
 build = "build.rs"
 
