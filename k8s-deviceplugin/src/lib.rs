@@ -34,7 +34,7 @@
 //!
 
 pub mod v1beta1 {
-    include!("./v1beta1.rs");
+    tonic::include_proto!("v1beta1");
 
     /// Means that the device is healthy.
     pub const HEALTHY: &str = "Healthy";
@@ -67,7 +67,7 @@ pub mod v1beta1 {
 }
 
 pub mod v1alpha {
-    include!("./deviceplugin.rs");
+    tonic::include_proto!("deviceplugin");
 
     /// Means that the device is healthy.
     pub const HEALTHY: &str = "Healthy";
