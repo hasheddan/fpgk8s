@@ -3,7 +3,7 @@ name = "k8s-deviceplugin"
 version = "0.2.0"
 license = "Apache-2.0"
 authors = ["hasheddan <georgedanielmangum@gmail.com>"]
-edition = "2018"
+edition = "2021"
 repository = "https://github.com/hasheddan/fpgk8s"
 homepage = "https://github.com/hasheddan/fpgk8s"
 documentation = "https://docs.rs/k8s-deviceplugin/0.1.0/k8s_deviceplugin/"
@@ -16,8 +16,8 @@ keywords = ["kubernetes", "k8s", "device", "plugin"]
 build = "build.rs"
 
 [dependencies]
-tonic = "0.7"
-prost = "0.10"
+tonic = "0.9"
+prost = "0.11"
 
 [build-dependencies]
-tonic-build = "0.7"
+tonic-build = "0.9"
